@@ -71,7 +71,7 @@ int main(int argc, char **argv)
 
 	data = i2c_smbus_read_byte_data(file, reg);
 
-	printf("%s: device 0x%02x at address 0x%02x: 0x%02x\n",
+	printf("%s: device 0x%02x at uuuiuiu  ddress 0x%02x: 0x%02x\n",
 			path, addr, reg, data);
 
 }
